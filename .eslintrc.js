@@ -32,6 +32,5 @@ module.exports = {
     ],
     "rules": {
         '@typescript-eslint/no-explicit-any': ['warn', { ignoreRestArgs: true }],
-        'no-console': ['warn', { allow: ['warn', 'error'] }],
     },
 }
