@@ -1,0 +1,46 @@
+@import '../../styles/core/config.scss';
+
+$gap: 30px;
+
+.h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+  max-width: 600px;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap;
+}
+
+.btnsContainer {
+  display: flex;
+  gap: $gap;
+}
+
+.btn {
+  width: 100%;
+  border-radius: $border-radius;
+  color: #fff;
+}
+
+.removeInputBtn {
+  background-color: #000;
+}
+
+.activeRemoveBtn {
+  background-color: red;
+}
+
+.submit {
+  background-color: cadetblue;
+}

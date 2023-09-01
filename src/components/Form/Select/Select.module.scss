@@ -1,0 +1,12 @@
+@import '../../../styles/core/config.scss';
+
+.selector {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: $border-radius;
+  appearance: none;
+  background-image: url('../../../../assets/icons/arrow-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
